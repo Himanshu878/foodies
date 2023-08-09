@@ -1,5 +1,5 @@
-const menu = document.getElementById("menu-icon");
-const navbar = document.getElementsByClassName("navbar");
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
 
 menu.addEventListener("click",function () {
     navbar.classList.toggle("active");
